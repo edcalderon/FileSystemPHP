@@ -27,11 +27,11 @@
         
         while($file = readdir($dir)):
         
-            if ($file == "create_folder.php" or $file == "nbproject" or $file == "." or $file == ".." or $file == "index.php" or $file == "create_file.php" or $file == "edit_file.php" or $file == "delete.php" or $file == "edit.php") {
+            if ($file == "edit_access.php" or$file == ".git" or $file == "create_folder.php" or $file == "nbproject" or $file == "." or $file == ".." or $file == "index.php" or $file == "create_file.php" or $file == "edit_file.php" or $file == "delete.php" or $file == "edit.php") {
                 continue;
             }   
 
-            echo "<a href='$file'>$file</a> ....<a href='edit.php?name=$file'> Edit </a> ...... <a href='delete.php?name=$file'> Delete </a><br>";
+            echo "<a href='$file'>$file</a> ....<a href='edit.php?name=$file'> Editar </a> ...... <a href='delete.php?name=$file'> Borrar </a>...... <a href='edit_access.php?name=$file'> Editar Permisos </a><br>";
             
    
         endwhile;
@@ -42,17 +42,13 @@
         <h2> Crear archivos y carpetas </h2><p></p> 
         <p></p>  
         <form action="create_file.php" method="POST">
-            Nombre Archivo: <input type="text" name="name"><p>
+            Nombre Archivo: <input type="text" name="name">
             <input type="submit" value="Crear Archivo">
-            
-            </p>
-
         </form>
-        
+        <p></p>  
         <form action="create_folder.php" method="POST">
-            Nombre Carpeta: <input type="text" name="name"><p>
-            <input type="submit" value="Crear Carpeta">
-            <p>
+            Nombre Carpeta: <input type="text" name="name">
+            <input type="submit" value="Crear Carpeta">           
         </form>
         
 
