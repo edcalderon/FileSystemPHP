@@ -1,5 +1,4 @@
 <?php
- 
 
 $pre_file_name = $_POST['name'];
         
@@ -21,8 +20,6 @@ fopen($file_name,'w');
             Ingresa Texto: <br><textarea name="edit" cols="100" rows="20"></textarea> <p>
             <input type="hidden" name="file_name" value="<?php echo $file_name; ?>">  
             <input type="submit" value="Guardar"> 
-
-            
             </p>
 
         </form>

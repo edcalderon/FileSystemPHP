@@ -5,10 +5,13 @@
         <group>
             <file>file:/opt/lampp/htdocs/FileSystem_php_1/index.php</file>
             <file>file:/opt/lampp/htdocs/FileSystem_php_1/create_file.php</file>
-            <file>file:/opt/lampp/htdocs/FileSystem_php_1/edit_file.php</file>
             <file>file:/opt/lampp/htdocs/FileSystem_php_1/delete.php</file>
+            <file>file:/opt/lampp/htdocs/FileSystem_php_1/edit_file.php</file>
+            <file>file:/opt/lampp/htdocs/FileSystem_php_1/paste.php</file>
             <file>file:/opt/lampp/htdocs/FileSystem_php_1/edit.php</file>
             <file>file:/opt/lampp/htdocs/FileSystem_php_1/create_folder.php</file>
+            <file>file:/opt/lampp/htdocs/FileSystem_php_1/edit_access.php</file>
+            <file>file:/opt/lampp/htdocs/FileSystem_php_1/copy.php</file>
         </group>
     </open-files>
 </project-private>
